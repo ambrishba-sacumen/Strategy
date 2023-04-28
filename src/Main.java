@@ -6,7 +6,9 @@ public class Main {
         String [] arr=s.split("");
         for(int i=0;i< arr.length;i++)
         {
-            System.out.println(arr[i]);
+            if(i!=0) {
+                System.out.println(arr[i]);
+            }
         }
         System.out.println("java");
     }
